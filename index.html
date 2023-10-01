@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+
+
+</head>
+<body>
+
+    <div class="wrapper">
+    <header>
+        <nav class="navbar">
+            <div class="brand">
+                <img src="./img/Logo-removebg-preview.png"  alt="logo"  class="img-log">
+            </div>
+            <ul class="menu">
+                <li ><a class="active" href="#">Inicio</a></li>
+                <li><a href="#">Sobre mi</a></li>
+                <li><a href="#">Portafolio</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="info-content">
+            <h1>I am <span>Mayra</span> Sanjuan</h1>
+            <p class="p-description">Hola, soy Mayra. Tengo 30 años y soy Ingeniera Industrial, graduada de la Universidad de Pamplona. Actualmente, resido en la ciudad de Bucaramanga y siento una gran pasión por adquirir nuevos conocimientos.</p>
+            <a download href="./HV Mayra Tatiana Sanjuan.pdf">
+            <button class="download-cv"> Descarga CV</button>
+            </a>
+        </div>
+        <img src="./img/mifoto-removebg-preview-removebg-preview-removebg-preview.png" alt="Mayra Sanjuan imagen">
+    </main>
+    </div>
+    <div class="about">
+        <img src="./img/IMG_20221203_000931_014-removebg-preview.png" alt="Mayra sanjuan imagen">
+        <div class="about-info">
+          <h2>Sobre Mi</h2>
+          <div class="divider"></div>
+          <p class="p-description">Soy una persona autodidacta, responsable y siempre motivada por explorar nuevas tecnologías. Creo firmemente en el valor de compartir conocimientos, ya que el acto de enseñar es, en sí mismo, una oportunidad para aprender dos veces. Mi interés principal es seguir profundizando mis conocimientos en el desarrollo web.</p>
+          <p class="p-description">En mis momentos de tiempo libre, me sumerjo en la lectura de libros, artículos y noticias actuales. Estoy convencida de que un profesional integral no solo debe enfocarse en su área de experiencia, sino también en comprender y estar al tanto del entorno que lo rodea.</p>
+          <button class="download-cv">Leer más</button>
+        </div>
+      </div>
+     
+    <div class="portfolio">
+        <div class="portfolio-headings">
+        <h2>Mi Portafolio</h2>
+        <div class="divider"></div> 
+        </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-img">
+            </div>
+            <div class="card-title">
+                <h2>Mi primer catálogo</h2>
+            </div>
+            <div class="projects_links">
+                <a href="https://github.com/msanjuan13/argollasct" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://argollasct.vercel.app/" target="_blank">
+                    <i class="fas fa-globe-asia"></i>
+                  </a>
+                  <a href="https://github.com/msanjuan13/argollasct/blob/main/index.html" target="_blank">
+                    <i class="fas fa-code"></i>
+                  </a>
+                </div>
+                <div class="button-content">
+                    <button class="project-details-button download-cv">
+                        <a href="">Detalles del Proyecto</a>
+                      </button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+            </div>
+            <div class="card-title">
+                <h2>Descripción del Proyecto</h2>
+            </div>
+            <div class="projects_links">
+                <a href="">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="">
+                    <i class="fas fa-globe-asia"></i>
+                  </a>
+                  <a href="">
+                    <i class="fas fa-code"></i>
+                  </a>
+                </div>
+                <div class="button-content">
+                    <button class="project-details-button download-cv">
+                        <a href="">Detalles del Proyecto</a>
+                      </button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+            </div>
+            <div class="card-title">
+                <h2>Descripción del Proyecto</h2>
+            </div>
+            <div class="projects_links">
+                <a href="">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="">
+                    <i class="fas fa-globe-asia"></i>
+                  </a>
+                  <a href="">
+                    <i class="fas fa-code"></i>
+                  </a>
+                </div>
+                <div class="button-content">
+                    <button class="project-details-button download-cv">
+                        <a href="">Detalles del Proyecto</a>
+                      </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <div class="contact-heading">
+            <h2>Contáctame</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="container-contact">
+            <img src="./img/Background.png" alt="Mayra Sanjuan imagen contacto">
+            <div class="contact-form">
+                <h4>Envíame un mensaje</h4>
+                <form id="form-contact"   onsubmit="sendMessage(event)">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre" class="input" required />
+                        <input type="email" placeholder="Correo Electrónico" class="input" required />
+                        <textarea placeholder="Escribe tu mensaje aquí" required></textarea>
+                        <button id="button-form" type="submit" class="btn-submit"> Enviar Mensaje </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer"> 
+        <div class="footer-content">
+          <h2>Mayra Sanjuan</h2>
+          <h5>Frontend Developer Jr</h5>
+        </div>
+        <div class="sotial-networks">
+            <a href="https://instagram.com/tatianasanjuanv13?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+            <i class="fab fa-instagram"> </i>
+            </a>
+            <a href="https://www.linkedin.com/in/mayra-tatiana-sanjuan-velez-6065089b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+      </footer>
+    <script type="text/javascript" src="./js/script.js">
+    </script>
+</body>
+</html>
